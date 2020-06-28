@@ -1,0 +1,746 @@
+.navbar-brand
+{
+    height: 5%;
+    padding: 2px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-brand  img {
+  height: 100%;
+  display: block;
+}
+/*p
+{
+ word-break: break-all;
+}*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background-color: rgba(185, 185, 185, 0.1);
+}
+.navbar-default {
+    background-color: #404040;
+    border-color: #e7e7e7;
+}
+nav>li>a {
+    color: #000;
+}
+.jumbotron {
+    margin: 0;
+    padding: 0 30%;
+    color: #3c3a3a;
+    background-color: #404040;
+}
+.jumbotron > img{
+    width: 100%;
+}
+.buttonnaruci
+{
+    background-color: white;
+    color: black;
+
+}
+@media screen and (min-width: 768px)
+{
+.jumbotron>img{
+    width: inherit;
+	}
+.navbar {
+    border-radius: 0px;
+	}
+}
+@media screen and (min-width: 320px)
+{
+.jumbotron img {
+    width: 100%;
+    /* height: 100%; */
+    /* padding: 10%; */
+    /* left: -37%; */
+    padding-left: 31%;
+    padding-right: 30%;
+}
+}
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 0;
+}
+.navbar-default {
+    background-color: #404040;
+    border-color: #404040;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 810%;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+ 	 width: 100%;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0;
+    right: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    min-width: 700%;
+
+}
+.dropdown-menu>li>a {
+    width: 30%;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.row>.col-md-4>li>a
+{
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.row>.col-md-4>li>a:hover
+{
+    background-color: darkred;
+    color: white;
+}
+.row .divider-vertical
+{
+    float: left;
+    padding: 1px;
+    height: 449px;
+    width: 1px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    margin-top: 12.5px;
+
+}
+.navmask {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 255, 0.8);
+    z-index: 100;
+}
+.dropdown-menu .col-md-4
+{
+	width: 32.33333333%
+}
+@media (min-width: 992px)
+{
+.dropdown-menu .col-md-4 {
+    width: 32.33333333%;
+}
+}
+.row>.col-md-2>img
+{
+	width: 100%;
+	height: 80%;
+}
+.row>.col-md-2>.divider
+{
+	width: 100%;
+	height: 1px;
+	background-color: black;
+}
+.col-md-2
+{
+	border: 1px solid black;
+}
+.checked
+{
+	color: red;
+}
+footer
+{
+    color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: #404040;
+}
+footer .row
+{
+	width: 100%;
+}
+footer a
+{
+    color: darkred;
+    transition: color 0.4s ease-in;
+    padding:0.2rem;
+    letter-spacing: 0.2rem;
+
+}
+footer a:hover
+{
+    color: red;
+    text-decoration: none;
+
+}
+footer p
+{
+    letter-spacing: 0.2rem;
+    
+}
+footer .divider
+{
+    height: 1px;
+    margin: 10px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+body
+{
+	background-color: gray;
+}
+.divider-vertical1
+{
+	float: left;
+	margin-top: 0.3%;
+	padding: 0.02%;
+	padding-bottom: 14%;
+	width: 1px;
+	/*height: 50%;*/
+	background-color: darkred;
+	border-radius: 	1px;
+}
+.h6
+{
+	text-align: left;
+}
+
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #f5f5f5;
+    background-color: #f5f5f538 ;
+    width: ;
+}
+@media screen and (max-width: 425px)
+{
+    
+.navbar-nav>li 
+{
+    float: none;
+    width: auto;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    width: 100%;
+    left: 114px;
+}
+}
+@media (max-width: 768px)
+{
+.navbar-nav .open .dropdown-menu {
+    background-color: #f5f5f5;
+}
+}
+@media (min-width: 768px)
+{
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-align: center;
+    background-color: #60030375;
+    height: 57px;
+    width: 
+}
+}
+@media (min-width: 768px)
+{
+.navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    width: 100%;
+}
+}
+@media (min-width: 768px)
+{
+    .navbar-nav>li {
+    float: left;
+    width: 14%;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    width: 89%;
+    left: 114px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+{
+    border-color: #e7e7e7;
+    width: 100%;
+    border: 0;
+    }
+}
+@media (min-width: 768px)
+{
+.padding10
+{
+ padding: 0 20% !important;
+}
+}
+@media screen and (max-width: 768px)  
+{
+.padding10
+{
+ padding: 0 1%;
+}
+}
+@media screen and (max-width: 767px)
+{
+.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+{
+    border-color: #e7e7e7;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    }
+.onamabutton
+{
+    width: 100%;
+    border: 1px solid white;
+    background-color: darkred ;
+    color: white;
+}
+
+.navbar-form .navbar-left
+{
+	min-width:  100%;
+}
+
+
+.navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    width: 100%;
+}
+}
+
+.navbar-form .form-control {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 0px;
+}
+
+
+.navbar-default .navbar-nav>li>a 
+{
+    color: white;
+    text-align: center;
+    background-color: #60030375;
+}
+.navbar-default .navbar-nav>.active>a 
+{
+   color: #780505;
+   background-color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover 
+{
+    color: #780505;
+    background-color: #f5f5f5;
+}
+}
+#border
+{
+	border-left: 1px solid darkred;
+	border-top: 1px solid darkred;
+}
+#bold
+{
+	font-weight: bold;
+}
+
+iframe
+{
+	padding: 1rem;
+	width: 100%;
+}
+.kontakt
+{
+	
+	border: 0;
+	padding: 1rem;
+	color: white;
+	text-align: left;
+}
+.kontakt h5
+{
+	font-size: 8pt;
+}
+
+.width
+{
+	width: 100%;
+	margin: 0;
+}
+.container
+{
+    padding: 0%;
+    background-color: #56565696;
+}
+.row {
+    margin: 0;
+    /* margin-left: -15px; */
+    width: 100%;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    /* padding-top: 25%; */
+    /* padding-right: 9px; */
+    /* padding-left: 15px; */
+    border-radius: 0px;
+    padding: 5%;
+}
+.border-left
+{
+	border-left: 1px solid darkred;
+}
+.border-right
+{
+	border-right: 1px solid darkred;
+}
+.border-top
+{
+	border-top: 1px solid darkred;
+}
+.border-bottom
+{
+	border-bottom: 1px solid darkred;
+}
+#padding10
+{
+	padding: 2%;
+}
+.right-devider
+{
+	background-color: darkred;
+	padding: 1px;
+	height: 100%;
+	width: 1px;
+	float: left;
+}
+.background
+{
+	border: 1px solid white;
+	border-radius: 10px;
+	color: white;
+	background-color: darkred;
+
+}
+a
+{
+color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover
+{
+	color: red;
+	text-decoration: none;
+}
+
+.center
+{
+	 margin-right: auto;
+  width: 50%;
+}
+@media(min-width: 1024px)
+{
+
+.onamabutton
+{
+	border: 1px solid white;
+	width: 100%;
+	background-color: darkred ;
+	color: white;
+
+}
+}
+@media screen and (max-width: 1024px)
+{
+
+.onamabutton
+{
+    border: 1px solid white;
+    width: 100%;
+    background-color: darkred ;
+    color: white;
+
+}
+}
+.row .col-md-6.col-xs-18.col-sm-6 .center a.btn
+{
+	width: 49%
+}
+.row .col-md-6.col-xs-18.col-sm-6 .center a.btn.btn-default
+{
+	background-color: darkred;
+	color: white;
+}
+#nomargin
+{
+	margin: 0;
+}
+.active
+{
+    background-color: white
+    color: #60030375;
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.fab {
+    font-size: 11pt;
+}
+.fab p{
+    font-size: 9pt;
+    color: #ffffff8a;
+}
+.fab p:hover
+{
+    color:red;
+}
+.colorwhite
+{
+    color: white;
+}
+.breakword
+{
+    word-break: break-all;
+}
+.copyright
+{
+    letter-spacing: 0; 
+    padding: 5px;
+    font-size: 10pt;
+    color: #f5f5f5a3;
+}
+.breadcrumb {
+    padding: 8px 15px;
+    background-color: #f5f5f51a;
+    border-radius: 0px;
+    margin: 0
+}
+.panel-default {
+    border-color: #333;
+}
+.panel-default>.panel-heading 
+{
+    color: #f5f5f5;
+    background-color: #9c111a;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body 
+{
+    color: #f5f5f5;
+    background-color: #333;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    width: 25%;
+    height: 89px;
+}
+@media (max-width: 768px)
+{
+.navbar-nav .open .dropdown-menu {
+    background-color: #f5f5f5;
+}
+}
+.page-header {
+    margin: 20px 0 20px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #8d1516;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: white;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+label b
+{
+	color: white;
+}
+.marginbottom
+{
+	margin-bottom: 28%;
+}
+a:focus, a:hover {
+    color: red;
+    text-decoration: none;
+}
+.caroselcont
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.carosel-content
+{
+    background-color: darkred;
+    padding: 1%;
+    margin: 0 1%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.content-text-carosel
+{
+    padding: 1%;
+    background-color: #404040;
+    color:white;
+    border-radius: 10px;
+}
+@media screen and (min-width: 768px)
+{
+.carousel-indicators {
+    bottom: 0px;
+    margin-bottom: 0;
+}
+}
+tab
+{
+    margin-left: 3em;
+}
+.carousel-inner .img-responsive
+{
+    margin: 0 auto;
+}
+
+.img-akcija
+{
+    background-image: url(akcija.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.abs
+{
+    position: absolute;
+    top:0;
+    left: 24%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+hr {
+    margin-bottom: 15px;
+}
+.row .carosel-content.text-center .abs
+{
+    width: 50%
+}
+.onamabackground
+{
+    background-color: #4f4c4c63;
+    border-radius: 10px;
+
+}
+.indeksbackground
+{
+    background-color: #8b0000;
+    border-radius: 10px
+    margin-top: 10px;
+}
+.indeksmargin
+{
+    margin: auto;
+    height: 222px;
+}
+.indeksmarginrow
+{
+    margin: 5% 0;
+}
+.indeksp
+{
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #555555c7;
+    word-break:break-all;
+}
+.indeksh
+{
+    padding: 1%;
+    border-radius: 10px;
+    background-color:#555;
+    word-break:break-all;
+}
